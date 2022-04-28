@@ -12,7 +12,6 @@
             bird.flap();
             break;
         case state.gameOver :
-	    await delay(5000);
             state.curr = state.getReady;
             bird.speed = 0;
             bird.y = 100;
